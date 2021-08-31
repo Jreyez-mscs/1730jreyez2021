@@ -24,7 +24,7 @@ namespace jreyez1730ex1b
 
         private void txtSubtotal_TextChanged(object sender, EventArgs e)
         {
-
+            
         }
 
         private void txtDiscountPercent_TextChanged(object sender, EventArgs e)

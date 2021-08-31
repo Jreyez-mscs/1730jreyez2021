@@ -58,7 +58,6 @@ namespace jreyez1730ex1b
             // 
             this.txtSubtotal.Location = new System.Drawing.Point(142, 44);
             this.txtSubtotal.Name = "txtSubtotal";
-            this.txtSubtotal.ReadOnly = true;
             this.txtSubtotal.Size = new System.Drawing.Size(224, 20);
             this.txtSubtotal.TabIndex = 1;
             this.txtSubtotal.TabStop = false;
@@ -79,10 +78,9 @@ namespace jreyez1730ex1b
             // 
             this.txtDiscountPercent.Location = new System.Drawing.Point(142, 84);
             this.txtDiscountPercent.Name = "txtDiscountPercent";
-            this.txtDiscountPercent.ReadOnly = true;
             this.txtDiscountPercent.Size = new System.Drawing.Size(224, 20);
             this.txtDiscountPercent.TabIndex = 3;
-            this.txtDiscountPercent.TabStop = false;
+            this.txtDiscountPercent.Text = "5";
             this.txtDiscountPercent.TextChanged += new System.EventHandler(this.txtDiscountPercent_TextChanged);
             // 
             // btnCalculate
@@ -90,7 +88,7 @@ namespace jreyez1730ex1b
             this.btnCalculate.Location = new System.Drawing.Point(136, 204);
             this.btnCalculate.Name = "btnCalculate";
             this.btnCalculate.Size = new System.Drawing.Size(81, 27);
-            this.btnCalculate.TabIndex = 2;
+            this.btnCalculate.TabIndex = 4;
             this.btnCalculate.Text = "&Calculate";
             this.btnCalculate.UseVisualStyleBackColor = true;
             this.btnCalculate.Click += new System.EventHandler(this.button1_Click);
@@ -100,7 +98,7 @@ namespace jreyez1730ex1b
             this.btnExit.Location = new System.Drawing.Point(285, 204);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(81, 27);
-            this.btnExit.TabIndex = 3;
+            this.btnExit.TabIndex = 5;
             this.btnExit.Text = "E&xit";
             this.btnExit.UseVisualStyleBackColor = true;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
@@ -122,7 +120,7 @@ namespace jreyez1730ex1b
             this.label4.Location = new System.Drawing.Point(48, 163);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(34, 13);
-            this.label4.TabIndex = 7;
+            this.label4.TabIndex = 8;
             this.label4.Text = "Total:";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.label4.Click += new System.EventHandler(this.label4_Click);
@@ -131,9 +129,8 @@ namespace jreyez1730ex1b
             // 
             this.txtDiscountAmount.Location = new System.Drawing.Point(142, 120);
             this.txtDiscountAmount.Name = "txtDiscountAmount";
-            this.txtDiscountAmount.ReadOnly = true;
             this.txtDiscountAmount.Size = new System.Drawing.Size(224, 20);
-            this.txtDiscountAmount.TabIndex = 8;
+            this.txtDiscountAmount.TabIndex = 7;
             this.txtDiscountAmount.TabStop = false;
             // 
             // txtTotal
@@ -186,6 +183,7 @@ namespace jreyez1730ex1b
         {
             txtTotal.Text = "10";
             txtTotal.ReadOnly = false;
+            txtDiscountAmount.Text = Convert.ToDecimal(txtSubtotal.Text + txtDiscountPercent.Text).ToString();
         }
 
         private void label2_Click(object sender, EventArgs e)

@@ -85,6 +85,8 @@ namespace jreyez1c1
             txtHotdogTotal.Text = "0";
             txtBurgerTotal.Text = "0";
             txtPretaxTotal.Text = "0";
+            txtTax.Text = "0";
+            txtTotal.Text = "0";
 
             txtHotdogs.Focus();
 

@@ -76,5 +76,12 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="flags\Australia-Flag-icon.png" />
+    <Content Include="flags\Bhutan-Flag-icon.png" />
+    <Content Include="flags\Costa-Rica-Flag-icon.png" />
+    <Content Include="flags\European-Union-Flag-icon.png" />
+    <Content Include="flags\United-States-Flag-icon.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

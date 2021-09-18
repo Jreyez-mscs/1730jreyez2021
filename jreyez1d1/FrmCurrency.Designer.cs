@@ -1,7 +1,7 @@
 ﻿
 namespace jreyez1d1
 {
-    partial class Form1
+    partial class FrmCurrency
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@ namespace jreyez1d1
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmCurrency));
             this.btnReset = new System.Windows.Forms.Button();
             this.btnExit = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();

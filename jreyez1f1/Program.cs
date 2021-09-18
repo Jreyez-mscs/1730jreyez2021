@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace jreyez1d1
+namespace jreyez1f1
 {
     static class Program
     {
@@ -16,7 +16,7 @@ namespace jreyez1d1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmCurrency());
+            Application.Run(new CurrencyConvertV2());
         }
     }
 }

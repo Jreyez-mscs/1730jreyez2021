@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3FD03857-DE83-4A99-AED1-1BDAB38D3DDF}</ProjectGuid>
+    <ProjectGuid>{834674D6-E94C-4457-AB73-8383501D95CA}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>jreyez1d1</RootNamespace>
-    <AssemblyName>jreyez1d1</AssemblyName>
+    <RootNamespace>jreyez1f1</RootNamespace>
+    <AssemblyName>jreyez1f1</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,16 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FrmCurrency.cs">
+    <Compile Include="FrmCurrencyV2.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmCurrency.Designer.cs">
-      <DependentUpon>FrmCurrency.cs</DependentUpon>
+    <Compile Include="FrmCurrencyV2.Designer.cs">
+      <DependentUpon>FrmCurrencyV2.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="FrmCurrency.resx">
-      <DependentUpon>FrmCurrency.cs</DependentUpon>
+    <EmbeddedResource Include="FrmCurrencyV2.resx">
+      <DependentUpon>FrmCurrencyV2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -79,6 +79,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="flags\Australia-Flag-icon.png" />
     <Content Include="flags\Bhutan-Flag-icon.png" />

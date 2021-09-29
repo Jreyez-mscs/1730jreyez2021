@@ -71,6 +71,7 @@ namespace jreyez1f1
             this.picAusDim.TabIndex = 1;
             this.picAusDim.TabStop = false;
             this.picAusDim.Visible = false;
+            this.picAusDim.Click += new System.EventHandler(this.picAusDim_Click);
             // 
             // picBhuDim
             // 
@@ -94,6 +95,7 @@ namespace jreyez1f1
             this.picBhu.TabIndex = 3;
             this.picBhu.TabStop = false;
             this.picBhu.Visible = false;
+            this.picBhu.Click += new System.EventHandler(this.picBhu_Click);
             // 
             // picCosta
             // 
@@ -148,6 +150,7 @@ namespace jreyez1f1
             this.btnAustralia.Text = "Australian Dollar";
             this.btnAustralia.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnAustralia.UseVisualStyleBackColor = true;
+            this.btnAustralia.Click += new System.EventHandler(this.btnAustralia_Click);
             // 
             // CurrencyConvertV2
             // 

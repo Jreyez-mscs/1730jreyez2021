@@ -89,7 +89,7 @@ namespace jreyez1d1
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(142, 3);
+            this.pictureBox1.Location = new System.Drawing.Point(61, 12);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(186, 144);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -99,7 +99,7 @@ namespace jreyez1d1
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(195, 134);
+            this.label1.Location = new System.Drawing.Point(114, 143);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(83, 13);
             this.label1.TabIndex = 14;
@@ -108,7 +108,7 @@ namespace jreyez1d1
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(374, 134);
+            this.label2.Location = new System.Drawing.Point(293, 143);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(105, 13);
             this.label2.TabIndex = 15;
@@ -117,7 +117,7 @@ namespace jreyez1d1
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(334, 3);
+            this.pictureBox2.Location = new System.Drawing.Point(253, 12);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(186, 144);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -127,7 +127,7 @@ namespace jreyez1d1
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(568, 134);
+            this.label3.Location = new System.Drawing.Point(487, 143);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(95, 13);
             this.label3.TabIndex = 16;
@@ -137,7 +137,7 @@ namespace jreyez1d1
             // pictureBox3
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(526, 3);
+            this.pictureBox3.Location = new System.Drawing.Point(445, 12);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(186, 144);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -147,7 +147,7 @@ namespace jreyez1d1
             // pictureBox4
             // 
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(974, 3);
+            this.pictureBox4.Location = new System.Drawing.Point(893, 12);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(186, 144);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -157,7 +157,7 @@ namespace jreyez1d1
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(1039, 134);
+            this.label5.Location = new System.Drawing.Point(958, 143);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(52, 13);
             this.label5.TabIndex = 21;
@@ -167,7 +167,7 @@ namespace jreyez1d1
             // pictureBox5
             // 
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(718, 3);
+            this.pictureBox5.Location = new System.Drawing.Point(637, 12);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(186, 144);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -177,7 +177,7 @@ namespace jreyez1d1
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(796, 134);
+            this.label4.Location = new System.Drawing.Point(715, 143);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(29, 13);
             this.label4.TabIndex = 17;
@@ -185,7 +185,7 @@ namespace jreyez1d1
             // 
             // txtAusAmount
             // 
-            this.txtAusAmount.Location = new System.Drawing.Point(142, 163);
+            this.txtAusAmount.Location = new System.Drawing.Point(61, 172);
             this.txtAusAmount.Name = "txtAusAmount";
             this.txtAusAmount.Size = new System.Drawing.Size(186, 20);
             this.txtAusAmount.TabIndex = 0;
@@ -194,7 +194,7 @@ namespace jreyez1d1
             // 
             // txtAusRate
             // 
-            this.txtAusRate.Location = new System.Drawing.Point(142, 189);
+            this.txtAusRate.Location = new System.Drawing.Point(61, 198);
             this.txtAusRate.Name = "txtAusRate";
             this.txtAusRate.Size = new System.Drawing.Size(186, 20);
             this.txtAusRate.TabIndex = 6;
@@ -204,7 +204,7 @@ namespace jreyez1d1
             // 
             // txtBhuRate
             // 
-            this.txtBhuRate.Location = new System.Drawing.Point(334, 189);
+            this.txtBhuRate.Location = new System.Drawing.Point(253, 198);
             this.txtBhuRate.Name = "txtBhuRate";
             this.txtBhuRate.Size = new System.Drawing.Size(186, 20);
             this.txtBhuRate.TabIndex = 7;
@@ -214,7 +214,7 @@ namespace jreyez1d1
             // 
             // txtBhuAmount
             // 
-            this.txtBhuAmount.Location = new System.Drawing.Point(334, 163);
+            this.txtBhuAmount.Location = new System.Drawing.Point(253, 172);
             this.txtBhuAmount.Name = "txtBhuAmount";
             this.txtBhuAmount.Size = new System.Drawing.Size(186, 20);
             this.txtBhuAmount.TabIndex = 1;
@@ -223,7 +223,7 @@ namespace jreyez1d1
             // 
             // txtCostaRate
             // 
-            this.txtCostaRate.Location = new System.Drawing.Point(526, 189);
+            this.txtCostaRate.Location = new System.Drawing.Point(445, 198);
             this.txtCostaRate.Name = "txtCostaRate";
             this.txtCostaRate.Size = new System.Drawing.Size(186, 20);
             this.txtCostaRate.TabIndex = 8;
@@ -233,7 +233,7 @@ namespace jreyez1d1
             // 
             // txtCostaAmount
             // 
-            this.txtCostaAmount.Location = new System.Drawing.Point(526, 163);
+            this.txtCostaAmount.Location = new System.Drawing.Point(445, 172);
             this.txtCostaAmount.Name = "txtCostaAmount";
             this.txtCostaAmount.Size = new System.Drawing.Size(186, 20);
             this.txtCostaAmount.TabIndex = 2;
@@ -242,7 +242,7 @@ namespace jreyez1d1
             // 
             // txtEuroRate
             // 
-            this.txtEuroRate.Location = new System.Drawing.Point(718, 189);
+            this.txtEuroRate.Location = new System.Drawing.Point(637, 198);
             this.txtEuroRate.Name = "txtEuroRate";
             this.txtEuroRate.Size = new System.Drawing.Size(186, 20);
             this.txtEuroRate.TabIndex = 9;
@@ -252,7 +252,7 @@ namespace jreyez1d1
             // 
             // txtEuroAmount
             // 
-            this.txtEuroAmount.Location = new System.Drawing.Point(718, 163);
+            this.txtEuroAmount.Location = new System.Drawing.Point(637, 172);
             this.txtEuroAmount.Name = "txtEuroAmount";
             this.txtEuroAmount.Size = new System.Drawing.Size(186, 20);
             this.txtEuroAmount.TabIndex = 3;
@@ -261,7 +261,7 @@ namespace jreyez1d1
             // 
             // txtUSDEuro
             // 
-            this.txtUSDEuro.Location = new System.Drawing.Point(718, 215);
+            this.txtUSDEuro.Location = new System.Drawing.Point(637, 224);
             this.txtUSDEuro.Name = "txtUSDEuro";
             this.txtUSDEuro.ReadOnly = true;
             this.txtUSDEuro.Size = new System.Drawing.Size(186, 20);
@@ -273,7 +273,7 @@ namespace jreyez1d1
             // 
             // txtUSDCosta
             // 
-            this.txtUSDCosta.Location = new System.Drawing.Point(526, 215);
+            this.txtUSDCosta.Location = new System.Drawing.Point(445, 224);
             this.txtUSDCosta.Name = "txtUSDCosta";
             this.txtUSDCosta.ReadOnly = true;
             this.txtUSDCosta.Size = new System.Drawing.Size(186, 20);
@@ -285,7 +285,7 @@ namespace jreyez1d1
             // 
             // txtUSDBhu
             // 
-            this.txtUSDBhu.Location = new System.Drawing.Point(334, 215);
+            this.txtUSDBhu.Location = new System.Drawing.Point(253, 224);
             this.txtUSDBhu.Name = "txtUSDBhu";
             this.txtUSDBhu.ReadOnly = true;
             this.txtUSDBhu.Size = new System.Drawing.Size(186, 20);
@@ -297,7 +297,7 @@ namespace jreyez1d1
             // 
             // txtUSDAus
             // 
-            this.txtUSDAus.Location = new System.Drawing.Point(142, 215);
+            this.txtUSDAus.Location = new System.Drawing.Point(61, 224);
             this.txtUSDAus.Name = "txtUSDAus";
             this.txtUSDAus.ReadOnly = true;
             this.txtUSDAus.Size = new System.Drawing.Size(186, 20);
@@ -310,7 +310,7 @@ namespace jreyez1d1
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(87, 166);
+            this.label6.Location = new System.Drawing.Point(6, 175);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(49, 13);
             this.label6.TabIndex = 18;
@@ -319,7 +319,7 @@ namespace jreyez1d1
             // 
             // txtTotalUSD
             // 
-            this.txtTotalUSD.Location = new System.Drawing.Point(974, 215);
+            this.txtTotalUSD.Location = new System.Drawing.Point(893, 224);
             this.txtTotalUSD.Name = "txtTotalUSD";
             this.txtTotalUSD.ReadOnly = true;
             this.txtTotalUSD.Size = new System.Drawing.Size(186, 20);
@@ -331,7 +331,7 @@ namespace jreyez1d1
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(100, 192);
+            this.label7.Location = new System.Drawing.Point(19, 201);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(36, 13);
             this.label7.TabIndex = 19;
@@ -340,7 +340,7 @@ namespace jreyez1d1
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(102, 218);
+            this.label8.Location = new System.Drawing.Point(21, 227);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(34, 13);
             this.label8.TabIndex = 20;
@@ -350,14 +350,14 @@ namespace jreyez1d1
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.label9.Location = new System.Drawing.Point(928, 215);
+            this.label9.Location = new System.Drawing.Point(847, 224);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(18, 20);
             this.label9.TabIndex = 22;
             this.label9.Text = "+";
             this.label9.Click += new System.EventHandler(this.label9_Click);
             // 
-            // Form1
+            // FrmCurrency
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -391,7 +391,7 @@ namespace jreyez1d1
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnReset);
-            this.Name = "Form1";
+            this.Name = "FrmCurrency";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();

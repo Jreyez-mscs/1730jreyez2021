@@ -174,10 +174,7 @@ namespace jreyez1f1
 
         }
 
-        private void btnAustralia_Click(object sender, EventArgs e)
-        {
-
-        }
+        
 
         private void picBhu_Click(object sender, EventArgs e)
         {

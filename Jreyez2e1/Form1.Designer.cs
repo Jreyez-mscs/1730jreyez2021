@@ -462,6 +462,7 @@ namespace Jreyez2e1
             this.input10dTextbox.Size = new System.Drawing.Size(100, 20);
             this.input10dTextbox.TabIndex = 73;
             this.input10dTextbox.Text = "4";
+            this.input10dTextbox.TextChanged += new System.EventHandler(this.input10dTextbox_TextChanged);
             // 
             // label12
             // 

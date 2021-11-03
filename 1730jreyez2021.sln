@@ -29,6 +29,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jreyez2f1", "jreyez2f1\jrey
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jreyez2fUnitTests", "jreyez2fUnitTests\jreyez2fUnitTests.csproj", "{43C4E0EC-E6C9-4CF3-9E30-4B44BE9F9ADC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jreyez2g1", "jreyez2g1\jreyez2g1.csproj", "{ECF91D7B-049F-4F34-9C8F-09E490A94C0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jreyezEx2gUnitTests", "jreyezEx2gUnitTests\jreyezEx2gUnitTests.csproj", "{4C6F91BA-C7DE-4A49-BCB6-5240776E3124}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +91,14 @@ Global
 		{43C4E0EC-E6C9-4CF3-9E30-4B44BE9F9ADC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{43C4E0EC-E6C9-4CF3-9E30-4B44BE9F9ADC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{43C4E0EC-E6C9-4CF3-9E30-4B44BE9F9ADC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECF91D7B-049F-4F34-9C8F-09E490A94C0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECF91D7B-049F-4F34-9C8F-09E490A94C0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECF91D7B-049F-4F34-9C8F-09E490A94C0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECF91D7B-049F-4F34-9C8F-09E490A94C0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C6F91BA-C7DE-4A49-BCB6-5240776E3124}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C6F91BA-C7DE-4A49-BCB6-5240776E3124}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C6F91BA-C7DE-4A49-BCB6-5240776E3124}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C6F91BA-C7DE-4A49-BCB6-5240776E3124}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

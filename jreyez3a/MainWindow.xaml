@@ -34,7 +34,7 @@
                 <RowDefinition Height="1*"/>
                 <RowDefinition Height="1*"/>
             </Grid.RowDefinitions>
-            <Label Content="0) p149 While count" HorizontalAlignment="Left" Height="28" Margin="10,10,0,0" VerticalAlignment="Top" />
+            <Label Content="0) p149 While count" HorizontalAlignment="Left" Height="28" Margin="18,10,0,0" VerticalAlignment="Top" Grid.RowSpan="2" />
             <TextBox x:Name="inputTxt0a" Grid.Column="1" HorizontalAlignment="Left" Height="24" Margin="4,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="94" RenderTransformOrigin="0.5,0.5" Text="24">
 
             </TextBox>
@@ -87,7 +87,7 @@
             <TextBox x:Name="inputTxt8c" Grid.Column="3" HorizontalAlignment="Left" Height="24" Margin="4,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="94" Grid.Row="8" Text="5"/>
             <TextBox x:Name="resultTxt8" Grid.Column="4" HorizontalAlignment="Left" Height="24" Margin="10,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="193" Grid.Row="8"/>
             <Label Content="6) Sum, while" HorizontalAlignment="Left" Height="28" Margin="10,8,0,0" VerticalAlignment="Top" Grid.Row="6" Grid.RowSpan="2" />
-            <TextBox x:Name="inputTxt9a" Grid.Column="1" HorizontalAlignment="Left" Height="24" Margin="4,8,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="198" RenderTransformOrigin="0.5,0.5" Grid.Row="6" Grid.ColumnSpan="2" Text="22 14 5 47 12">
+            <TextBox x:Name="inputTxt9a" Grid.Column="1" HorizontalAlignment="Left" Height="24" Margin="4,8,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="198" RenderTransformOrigin="0.5,0.5" Grid.Row="6" Grid.ColumnSpan="2" Text="22 14 5 47 12 ">
             </TextBox>
             <TextBox x:Name="inputTxt9c" Grid.Column="3" HorizontalAlignment="Left" Height="24" Margin="4,8,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="94" Grid.Row="6" Text="5"/>
             <TextBox x:Name="resultTxt9" Grid.Column="4" HorizontalAlignment="Left" Height="24" Margin="10,8,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="193" Grid.Row="6"/>
